@@ -6,9 +6,9 @@ import Footer from "./components/Footer";
 import React from "react";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {  faGithub , faLinkedin} from "@fortawesome/free-brands-svg-icons";
-import { faFile,faCoffee,faLink,faXmark,faArrowUp} from "@fortawesome/free-solid-svg-icons";
+import { faFile,faCoffee,faLink,faXmark,faArrowUp,faSpinner} from "@fortawesome/free-solid-svg-icons";
 import { BrowserRouter } from "react-router-dom";
-library.add(faFile,faCoffee,faLink,faGithub,faLinkedin,faXmark,faArrowUp);
+library.add(faFile,faCoffee,faLink,faGithub,faLinkedin,faXmark,faArrowUp,faSpinner);
 
 function App() {
   let isFormOpen = false;
@@ -20,6 +20,7 @@ function App() {
     isFormOpen = true;
     document.body.classList += "contact-form-open";
   };
+
   return (
     <div className="App">
       <BrowserRouter>
@@ -27,7 +28,7 @@ function App() {
       <Profile />
       <Projects />
       <Contact click={toggleForm}/>
-      <Footer />
+      <Footer click={toggleForm}/>
       </BrowserRouter>
     </div>
   );

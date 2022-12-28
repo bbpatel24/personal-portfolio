@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "../assets/me.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import Me from "../assets/Bhavya.JPG"
 const Profile = () => {
   return (
     <section id="profile-section">
@@ -11,7 +11,7 @@ const Profile = () => {
             <div className="name">
               <figure className="profile-image-wrapper wrapper-slider ">
                 <img
-                  src={Project}
+                  src={Me}
                   alt=""
                   className="profile-image image-slider "
                 />

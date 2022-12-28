@@ -1,7 +1,8 @@
 import React from "react";
 import Logo from "../assets/logo-final.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-const Footer = () => {
+import { Link } from "react-router-dom"
+const Footer = ({click}) => {
   return (
     <section id="footer">
       <div className="row">
@@ -29,6 +30,11 @@ const Footer = () => {
               <a href="https://github.com/bbpatel24/" className="footer-link">
                 Github
               </a>
+            </li>
+            <li>
+            <Link to="#profile-section" className="footer-link" onClick={click}>
+            Contact
+          </Link>
             </li>
           </ul>
           <p className="copyright">Copyright© Bhavya Patel</p>

@@ -42,7 +42,7 @@ const Projects = () => {
               <div className="project-info-container">
               <h1 className="project-title">Library Application</h1>
               <p className="project-languages">Technologies used: <span className="project-enhance">HTML,CSS,React.js,Javascript,jQuery,API(Fake Data)</span></p>
-              <p className="project-description-2">The link below will take you to the e-library application based on CRUD operations which uses a statically created API showing that it can use the data coming from a database dynamically and update the application with the new data added created by me. Multiple webpages are put together with the help of React Router to increase the surfing speed of the application.<br /> View on laptop/computer for better experience.</p>
+              <p className="project-description-2">The link below will take you to the e-library application based on CRUD operations which uses a statically created API and update the book data dynamically when new data is added to API. Multiple webpages are put together with the help of React Router to increase the surfing speed of the application.<br /><span className="project-enhance">View on laptop/computer for better experience.</span></p>
               <button className="project-button">
               <a target="_blank" href="https://github.com/bbpatel24/e-commerce-app" className="project-link">
               <FontAwesomeIcon icon="fa-brands fa-github" />
