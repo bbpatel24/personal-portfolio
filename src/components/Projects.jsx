@@ -20,7 +20,7 @@ const Projects = () => {
               </figure>
               </div>
               <div className="project-info-container">
-              <h1 className="project-title">PlayStation Clone</h1>
+              <h1 className="project-title">bhavya Clone</h1>
               <p className="project-languages">Technologies Used: <span className="project-enhance">HTML,CSS,React.js,API,jquery</span></p>
               <p className="project-description">Click on the link button below to see PlayStation website's clone created by me displaying the skills to create a webpage designed by the designer/client and fulfill accordingly. The images used in this website are all from the official website. I hope to not get a copyright strike;)<br /> View on laptop/computer for better experience.  Working on mobile devices compatibility</p>
               <button className="project-button">
