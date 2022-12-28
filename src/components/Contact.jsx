@@ -35,7 +35,7 @@ const Contact = ({ click }) => {
       <div className="row">
         <div className="contact-container">
           <div className="contact-form about">
-            <p className="about-title">MORE About me ;)</p>
+            <p className="about-title">More About me ;)</p>
             <p className="about-sub-title">Frontend Engineer</p>
             <p className="about-description">
               I am a 20 year old front-end developer aiming to make my dream to

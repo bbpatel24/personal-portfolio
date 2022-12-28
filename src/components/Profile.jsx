@@ -1,7 +1,7 @@
 import React from "react";
-import Project from "../assets/me.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Me from "../assets/Bhavya.JPG"
+import Resume from "../assets/Bhavya-Patel-Resume-Document.pdf"
 const Profile = () => {
   return (
     <section id="profile-section">
@@ -42,7 +42,7 @@ const Profile = () => {
                   </li>
                   <li className="profile">
                     <button className="profile-button">
-                      <a href="" target="_blank" className="profile-link">
+                      <a href={Resume} target="_blank" className="profile-link">
                       <FontAwesomeIcon icon="fa-file" />
                       </a>
                     </button>

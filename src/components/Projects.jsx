@@ -1,8 +1,10 @@
-import React from "react";
+import React,{useEffect} from "react";
 import PSimage from "../assets/playstation-clone-image.png"
 import LibraryAppImage from "../assets/library-app-image.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Projects = () => {
+
   return (
       <section id="projects">
         <div className="row">
@@ -27,7 +29,7 @@ const Projects = () => {
             </a>
                     </button>
               <button className="project-button">
-                      <a target="_blank" href="https://bhavya-patel-playstation-clone.netlify.app" className="project-link">
+                      <a target="_blank" href="https://playstation-clone.netlify.app" className="project-link">
                         <FontAwesomeIcon icon="fa-link" />
                       </a>
                     </button>
@@ -49,8 +51,7 @@ const Projects = () => {
             </a>
                     </button>
               <button className="project-button">
-                      <a target="_blank" href="https://bhavya-patel-e-commerce.netlify.app" className="project-link">
-                      
+                      <a target="_blank" href="https://library-application.netlify.app" className="project-link">
                         <FontAwesomeIcon icon="fa-link" />
                       </a>
                     </button>

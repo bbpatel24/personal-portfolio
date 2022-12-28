@@ -27,14 +27,9 @@ const Footer = ({click}) => {
               </a>
             </li>
             <li>
-              <a href="https://github.com/bbpatel24/" className="footer-link">
+              <a href="https://github.com/bbpatel24/" target="_blank" className="footer-link">
                 Github
               </a>
-            </li>
-            <li>
-            <Link to="#profile-section" className="footer-link" onClick={click}>
-            Contact
-          </Link>
             </li>
           </ul>
           <p className="copyright">Copyright© Bhavya Patel</p>
