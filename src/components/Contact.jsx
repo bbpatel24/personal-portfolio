@@ -38,13 +38,11 @@ const Contact = ({ click }) => {
             <p className="about-title">More About me ;)</p>
             <p className="about-sub-title">Frontend Engineer</p>
             <p className="about-description">
-              I am a 20 year old front-end developer aiming to make my dream to
-              become a web developer a reality. I have been designing and
-              studying the concepts of web development for the past 2 years and
-              desire to implement them in real world. Making user-facing
-              interactive and web responsive designs in my passion. I am
-              currently researching different type of languages which will help
-              me achieve my goal and be an asset to my skill.
+            As a Frontend Developer, I specialize in designing and implementing intuitive, interactive, and responsive user experiences for web applications. I have expertise in HTML, CSS, and JavaScript, and am proficient in modern frontend frameworks such as React.
+
+            I have a strong understanding of web design principles and am able to translate wireframes and mockups into functional and visually appealing web pages. I am also skilled in cross-browser compatibility testing and debugging, ensuring that my projects are compatible with a wide range of devices and browsers.
+            
+            I am a proactive problem solver and thrive in a collaborative team environment. I am always looking to learn and improve my skills, and enjoy staying up-to-date with the latest frontend technologies and trends.
             </p>
           </div>
           <div className="contact-form message">
