@@ -21,8 +21,8 @@ const Projects = () => {
               </div>
               <div className="project-info-container">
               <h1 className="project-title">Playstation Clone</h1>
-              <p className="project-languages">Technologies Used: <span className="project-enhance">HTML,CSS,React.js,API,jquery</span></p>
-              <p className="project-description">Click on the link button below to see PlayStation website's clone created by me displaying the skills to create a webpage designed by the designer/client and fulfill accordingly. The images used in this website are all from the official website. I hope to not get a copyright strike;)<br /> View on laptop/computer for better experience.  Working on mobile devices compatibility</p>
+              <p className="project-languages">Technologies Used: <span className="project-enhance">HTML, CSS, React.js, Javascript, jQuery, react-router-dom, JSON data</span></p>
+              <p className="project-description">Developed web application with React, Javascript, CSS and structured data from a JSON data file which acts like a real-time API. Features include auto slider, carousels which are displayed as per the screen size</p>
               <button className="project-button">
               <a target="_blank" href="https://github.com/bbpatel24/playstation-clone" className="project-link">
               <FontAwesomeIcon icon="fa-brands fa-github" />
@@ -43,8 +43,10 @@ const Projects = () => {
               </div>
               <div className="project-info-container">
               <h1 className="project-title">Library Application</h1>
-              <p className="project-languages">Technologies used: <span className="project-enhance">HTML,CSS,React.js,Javascript,jQuery,API(Fake Data)</span></p>
-              <p className="project-description-2">The link below will take you to the e-library application based on CRUD operations which uses a statically created API and update the book data dynamically when new data is added to API. Multiple webpages are put together with the help of React Router to increase the surfing speed of the application.<br /><span className="project-enhance">View on laptop/computer for better experience.</span></p>
+              <p className="project-languages">Technologies used: <span className="project-enhance"> HTML, CSS, React.js, Javascript, jQuery, react-router-dom, JSON data, emailjs</span></p>
+              <p className="project-description-2">Developed a fully responsible e-library with  React, jQuery and structured data coming from a JSON data file which acts like a real-time API.
+              Features include adding books to cart, removing them as per user choice, updating the cart quantity and slicing books which are featured and are on sale.
+              books which are featured and are on sale</p>
               <button className="project-button">
               <a target="_blank" href="https://github.com/bbpatel24/e-commerce-app" className="project-link">
               <FontAwesomeIcon icon="fa-brands fa-github" />
