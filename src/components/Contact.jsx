@@ -39,10 +39,10 @@ const Contact = ({ click }) => {
             <p className="about-sub-title">Frontend Engineer</p>
             <p className="about-description">
             As a Frontend Developer, I specialize in designing and implementing intuitive, interactive, and responsive user experiences for web applications. I have expertise in HTML, CSS, and JavaScript, and am proficient in modern frontend frameworks such as React.
-
+<br />
             I have a strong understanding of web design principles and am able to translate wireframes and mockups into functional and visually appealing web pages. I am also skilled in cross-browser compatibility testing and debugging, ensuring that my projects are compatible with a wide range of devices and browsers.
             
-            I am a proactive problem solver and thrive in a collaborative team environment. I am always looking to learn and improve my skills, and enjoy staying up-to-date with the latest frontend technologies and trends.
+           
             </p>
           </div>
           <div className="contact-form message">
