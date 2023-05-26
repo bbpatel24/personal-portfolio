@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Me from "../assets/Bhavya.JPG"
+import Me from "../assets/linkedin-photo.jpg"
 import Resume from "../assets/Resume.pdf"
 const Profile = () => {
   return (

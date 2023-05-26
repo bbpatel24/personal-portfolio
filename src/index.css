@@ -658,7 +658,7 @@ textarea:focus {
   border-radius: 36px;
   line-height: 1.2em;
   text-align: left;
-  font-size: 12px;
+  font-size: 38px;
 }
 .project-image-container {
   position: absolute;
@@ -671,7 +671,7 @@ textarea:focus {
   height: 100%;
   padding: 120px 50px;
   transform: translate(0%, 100%);
-  font-size: 12px;
+  font-size: 24px;
   z-index: -1;
   color: white;
 }
@@ -943,7 +943,7 @@ textarea:focus {
     text-align: center;
   }
   .about-description {
-    font-size: 9px;
+    font-size: 18px;
   }
   .message {
     padding: 24px;
