@@ -75,7 +75,7 @@ const Contact = ({ click }) => {
               <br />
               <label htmlFor="">Message</label>
               <br />
-              <textarea name="user_message" cols="38" rows="6"></textarea>
+              <textarea name="user_message" cols="38" rows="4"></textarea>
               <br />
               <button className="message-submit-button">Send Message!</button>
             </form>

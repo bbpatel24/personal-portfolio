@@ -126,10 +126,20 @@ section:nth-child(odd) {
 
 /* PROFILE */
 #profile-section {
-  height: 100vh;
+height:75vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.profile-list-elements{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-button-description{
+  font-size:14px;
 }
 .profile {
   display: flex;
@@ -647,7 +657,8 @@ textarea:focus {
   margin: 24px 0px;
   border-radius: 36px;
   line-height: 1.2em;
-  text-align: center;
+  text-align: left;
+  font-size: 12px;
 }
 .project-image-container {
   position: absolute;
@@ -660,7 +671,7 @@ textarea:focus {
   height: 100%;
   padding: 120px 50px;
   transform: translate(0%, 100%);
-  font-size: 24px;
+  font-size: 12px;
   z-index: -1;
   color: white;
 }
@@ -687,7 +698,6 @@ textarea:focus {
 }
 .project-button-link,
 .project-button-brand {
-
   padding: 8px;
   font-size: 24px;
   background: transparent;
@@ -829,6 +839,8 @@ textarea:focus {
   }
 
   /* PROFILE */
+
+
   .container {
     width: 100%;
   }
@@ -909,8 +921,9 @@ textarea:focus {
   /* CONTACT */
 
   .contact-container {
-    max-width: 90%;
-    max-height: 500px;
+
+    max-width: 95%;
+    max-height: 450px;
   }
   .contact-close {
     font-size: 16px;
@@ -920,6 +933,7 @@ textarea:focus {
   }
   .about {
     padding: 24px;
+    font-size:8px;
   }
   .about-title {
     font-size: 16px;
@@ -929,7 +943,7 @@ textarea:focus {
     text-align: center;
   }
   .about-description {
-    font-size: 11px;
+    font-size: 9px;
   }
   .message {
     padding: 24px;

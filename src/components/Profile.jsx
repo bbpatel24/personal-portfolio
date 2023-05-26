@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Me from "../assets/Bhavya.JPG"
-import Resume from "../assets/Bhavya-Patel-Resume-Document.pdf"
+import Resume from "../assets/Resume.pdf"
 const Profile = () => {
   return (
     <section id="profile-section">
@@ -21,31 +21,33 @@ const Profile = () => {
                 I'm <span className="enhance">Bhavya</span>
               </h1>
               <p className="profile-description para-slider">
-                I am a Front-end Engineer with passion in creating web
-                application with engaging user experiences.
+                I am a full stack developer specializing in frontend with proficiency in MERN Stack
               </p>
               <div className="profile-links button-slider">
                 <ul className="profile-list">
-                  <li className="profile">
+                  <li className="profile-list-elements">
                     <button className="profile-button">
                       <a href="https://www.linkedin.com/in/bhavya-patel-861a73223/" target="_blank" className="profile-link">
                       <FontAwesomeIcon icon="fa-brands fa-linkedin" />
                       </a>
                     </button>
+ 
                   </li>
-                  <li className="profile">
+                  <li className="profile-list-elements">
                     <button className="profile-button">
                       <a href="https://github.com/bbpatel24" target="_blank" className="profile-link">
                         <FontAwesomeIcon icon="fa-brands fa-github" />
                       </a>
                     </button>
+                 
                   </li>
-                  <li className="profile">
+                  <li className="profile-list-elements">
                     <button className="profile-button">
                       <a href={Resume} target="_blank" className="profile-link">
                       <FontAwesomeIcon icon="fa-file" />
                       </a>
                     </button>
+                    
                   </li>
                 </ul>
               </div>

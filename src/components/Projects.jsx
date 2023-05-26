@@ -23,15 +23,14 @@ const Projects = () => {
                 <p className="project-languages">
                   Technologies Used:
                   <span className="project-enhance">
-                    HTML, CSS, React.js, Javascript, jQuery, react-router-dom,
-                    JSON data
+                    HTML, CSS, React.js, Javascript, jQuery, react-router-dom
+                  
                   </span>
                 </p>
                 <p className="project-description">
-                  Developed web application with React, Javascript, CSS and
-                  structured data from a JSON data file which acts like a
-                  real-time API. Features include auto slider, carousels which
-                  are displayed as per the screen size
+                 It uses a combination of static and dynamic content generated from a third-party API. 
+                 The website retrieves data from the PlayStation Store API to display information such as game titles, descriptions, prices, and images.
+                 It is fully responsive across all devices and displays sliders , carousels, and grids depending on the device the website is used on.
                 </p>
                 <button className="project-button-link">
                   <a
@@ -67,16 +66,13 @@ const Projects = () => {
                   <span className="project-enhance">
                     {" "}
                     HTML, CSS, React.js, Javascript, jQuery, react-router-dom,
-                    JSON data, emailjs
+                   emailjs
                   </span>
                 </p>
                 <p className="project-description-2">
-                  Developed a fully responsible e-library with React, jQuery and
-                  structured data coming from a JSON data file which acts like a
-                  real-time API. Features include adding books to cart, removing
-                  them as per user choice, updating the cart quantity and
-                  slicing books which are featured and are on sale. books which
-                  are featured and are on sale
+                 The website uses a third-party API called Google Books API to fetch book data and display it on the website.
+ The API allows the website to retrieve information such as book title, author, description, and cover image, which is then displayed to the user.
+ It allows users to browse and search for books, view book details, and add or remove books to their reading list.
                 </p>
 
                 <button className="project-button-link">
