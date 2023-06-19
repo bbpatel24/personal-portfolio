@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Me from "../assets/linkedin-photo.jpg"
-import Resume from "../assets/Resume.pdf"
+import Resume from "../assets/Bhavya Resume File.pdf"
 const Profile = () => {
   return (
     <section id="profile-section">
@@ -31,6 +31,7 @@ const Profile = () => {
                       <FontAwesomeIcon icon="fa-brands fa-linkedin" />
                       </a>
                     </button>
+                    <span className="profile-button-detail">Linkedin</span>
  
                   </li>
                   <li className="profile-list-elements">
@@ -39,7 +40,8 @@ const Profile = () => {
                         <FontAwesomeIcon icon="fa-brands fa-github" />
                       </a>
                     </button>
-                 
+                    <span className="profile-button-detail">Github</span>
+
                   </li>
                   <li className="profile-list-elements">
                     <button className="profile-button">
@@ -47,7 +49,8 @@ const Profile = () => {
                       <FontAwesomeIcon icon="fa-file" />
                       </a>
                     </button>
-                    
+                    <span className="profile-button-detail">Resume</span>
+
                   </li>
                 </ul>
               </div>
@@ -60,8 +63,9 @@ const Profile = () => {
                 <div className="tile4 border"></div>
               </div>
             </div>
-          </div>
-        </div>
+            </div>
+            </div>
+            <span className="profile-scroll"><a href="#projects"><FontAwesomeIcon icon="fa-arrow-down" /></a></span>
       </div>
     </section>
   );

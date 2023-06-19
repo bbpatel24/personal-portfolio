@@ -5,30 +5,54 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import React from "react";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import {  faGithub , faLinkedin} from "@fortawesome/free-brands-svg-icons";
-import { faFile,faCoffee,faLink,faXmark,faArrowUp,faSpinner} from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFile,
+  faCoffee,
+  faLink,
+  faXmark,
+  faArrowUp,
+  faSpinner,
+  faArrowDown,
+} from "@fortawesome/free-solid-svg-icons";
 import { BrowserRouter } from "react-router-dom";
-library.add(faFile,faCoffee,faLink,faGithub,faLinkedin,faXmark,faArrowUp,faSpinner);
+library.add(
+  faFile,
+  faCoffee,
+  faLink,
+  faGithub,
+  faLinkedin,
+  faXmark,
+  faArrowUp,
+  faSpinner,
+  faArrowDown
+);
 
 function App() {
   let isFormOpen = false;
+
   const toggleForm = () => {
-    if(isFormOpen){
+    if (isFormOpen) {
       isFormOpen = false;
-      return document.body.classList.remove("contact-form-open");
+       document.body.classList.remove("contact-form-open");
+       document.body.classList.remove("hide-profile");
+      
+    } else {
+      isFormOpen = true;
+      document.body.classList.add("contact-form-open");
+      document.body.classList.add("hide-profile");
     }
-    isFormOpen = true;
-    document.body.classList += "contact-form-open";
+   
   };
 
   return (
     <div className="App">
       <BrowserRouter>
-      <Nav click={toggleForm} />
-      <Profile />
-      <Projects />
-      <Contact click={toggleForm}/>
-      <Footer click={toggleForm}/>
+        <Nav click={toggleForm} />
+        <Profile />
+        <Projects />
+        <Contact click={toggleForm} />
+        <Footer click={toggleForm} />
       </BrowserRouter>
     </div>
   );
